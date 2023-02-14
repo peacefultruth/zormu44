@@ -26,6 +26,8 @@
 
 Deprem? Deprem is a turk word for earthq [🇹🇷 Donate to me directly.](https://www.buymeacoffee.com/44ms) Or do you need an `ls ./tragedy`? You can always release fo free.
 
+No idea why that script below doesn't work and don't really care. [Buy me a bag yani]()
+
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="44ms" data-color="#40DCA5" data-emoji="👜"  data-font="Cookie" data-text="Buy me a bag" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 
 # Yallah
@@ -85,3 +87,5 @@ const Email: React.FunctionComponent<EmailProps> = (props) => {
       <input value={value} onChange={React44ms.React.Convenient.input.onChange(locate)}/>
 ...
 ```
+
+# LEVEL 11

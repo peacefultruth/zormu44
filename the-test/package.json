@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-44ms": "file:../react-44ms/react-44ms-1.0.0.tgz",
-    "typescript-44ms-ootb-all": "file:../typescript-44ms-ootb-all/typescript-44ms-ootb-all-1.0.0.tgz"
+    "react-44ms": "*",
+    "typescript-44ms-ootb-all": "*"
   }
 }

@@ -8,6 +8,7 @@
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
   "types": "build/build/index.d.ts",
+  "repository": "github:peacefultruth/zormu44",
   "scripts": {
     "ls": "node -e \"console.log(require('.' + require('path').sep + 'package.json').scripts || {})\"",
     "build": "rm -rf build && rollup -c ./../../zormu44/how-to-rob/fo-bundlin/rollup.config.js --bundleConfigAsCjs"

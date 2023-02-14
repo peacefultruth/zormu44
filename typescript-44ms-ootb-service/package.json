@@ -8,6 +8,7 @@
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
   "types": "build/build/index.d.ts",
+  "repository": "github:peacefultruth/zormu44",
   "scripts": {
     "ls": "node -e \"console.log(require('.' + require('path').sep + 'package.json').scripts || {})\"",
     "build": "rm -rf build && rollup -c ./../../zormu44/how-to-rob/fo-bundlin/rollup.config.js --bundleConfigAsCjs"
@@ -19,8 +20,8 @@
     "typescript": "^4.8.4"
   },
   "peerDependencies": {
-    "typescript-44ms": "file:../typescript-44ms/typescript-44ms-1.0.0.tgz",
-    "typescript-44ms-reactionary-template-method": "file:../typescript-44ms-reactionary-template-method/typescript-44ms-reactionary-template-method-1.0.0.tgz",
-    "typescript-44ms-ootb-reactionary": "file:../typescript-44ms-ootb-reactionary/typescript-44ms-ootb-reactionary-1.0.0.tgz"
+    "typescript-44ms": "*",
+    "typescript-44ms-reactionary-template-method": "*",
+    "typescript-44ms-ootb-reactionary": "*"
   }
 }
