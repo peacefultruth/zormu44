@@ -1,0 +1,38 @@
+{
+  "name": "typescript-44ms-ootb-all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.cjs.js",
+  "module": "build/index.esm.js",
+  "types": "build/index.d.ts",
+  "typings": "build/build/index.d.ts",
+  "scripts": {
+    "ls": "node -e \"console.log(require('.' + require('path').sep + 'package.json').scripts || {})\"",
+    "typescript": "tsc --noEmit --project ./../how-to-rob/always/tsconfig.json",
+    "build": "rm -rf build && rollup -c ./../../zormu44/how-to-rob/fo-bundlin/rollup.config.js --bundleConfigAsCjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "rollup": "^3.15.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "typescript-44ms": "file:../typescript-44ms/typescript-44ms-1.0.0.tgz",
+    "typescript-44ms-ootb-create-element": "file:../typescript-44ms-ootb-create-element/typescript-44ms-ootb-create-element-1.0.0.tgz",
+    "typescript-44ms-ootb-dom": "file:../typescript-44ms-ootb-dom/typescript-44ms-ootb-dom-1.0.0.tgz",
+    "typescript-44ms-ootb-events": "file:../typescript-44ms-ootb-events/typescript-44ms-ootb-events-1.0.0.tgz",
+    "typescript-44ms-ootb-form-refs": "file:../typescript-44ms-ootb-form-refs/typescript-44ms-ootb-form-refs-1.0.0.tgz",
+    "typescript-44ms-ootb-logical-context": "file:../typescript-44ms-ootb-logical-context/typescript-44ms-ootb-logical-context-1.0.0.tgz",
+    "typescript-44ms-ootb-public-form-state": "file:../typescript-44ms-ootb-public-form-state/typescript-44ms-ootb-public-form-state-1.0.0.tgz",
+    "typescript-44ms-ootb-reactionary": "file:../typescript-44ms-ootb-reactionary/typescript-44ms-ootb-reactionary-1.0.0.tgz",
+    "typescript-44ms-ootb-service": "file:../typescript-44ms-ootb-service/typescript-44ms-ootb-service-1.0.0.tgz",
+    "typescript-44ms-ootb-service-controller": "file:../typescript-44ms-ootb-service-controller/typescript-44ms-ootb-service-controller-1.0.0.tgz",
+    "typescript-44ms-ootb-source-of-truth": "file:../typescript-44ms-ootb-source-of-truth/typescript-44ms-ootb-source-of-truth-1.0.0.tgz",
+    "typescript-44ms-ootb-state-indexing": "file:../typescript-44ms-ootb-state-indexing/typescript-44ms-ootb-state-indexing-1.0.0.tgz",
+    "typescript-44ms-reactionary-template-method": "file:../typescript-44ms-reactionary-template-method/typescript-44ms-reactionary-template-method-1.0.0.tgz"
+  }
+}

@@ -1,0 +1,1 @@
+export declare const fulfill: <T extends unknown>(key: keyof T, ...args: Parameters<T[keyof T] extends (...args: any[]) => any ? T[keyof T] : any>) => ReturnType<T[keyof T] extends (...args: any[]) => any ? T[keyof T] : any>;

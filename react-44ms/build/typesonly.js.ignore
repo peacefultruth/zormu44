@@ -1,0 +1,14 @@
+(function () {
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", { value: true });
+	exports.ConvenientJsx = exports.React = exports.Service = exports.Always = exports.Api = void 0;
+	var tslib_1 = require("tslib");
+	var typescript_44ms_1 = require("typescript-44ms");
+	Object.defineProperty(exports, "Api", { enumerable: true, get: function () { return typescript_44ms_1.Api; } });
+	Object.defineProperty(exports, "Always", { enumerable: true, get: function () { return typescript_44ms_1.Always; } });
+	exports.Service = tslib_1.__importStar(require("typescript-44ms-reactionary-template-method"));
+	exports.React = tslib_1.__importStar(require("./gateway-react"));
+	exports.ConvenientJsx = tslib_1.__importStar(require("./convenient-jsx"));
+
+})();
